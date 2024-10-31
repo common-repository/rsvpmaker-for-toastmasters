@@ -1,0 +1,33 @@
+{
+	"name": "toastmasters-dynamic-agenda",
+	"version": "0.1.0",
+	"description": "Example block scaffolded with Create Block tool.",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^27.6.0"
+	},
+	"dependencies": {
+		"@tinymce/tinymce-react": "^5.0.1",
+		"@wordpress/icons": "^9.48.0",
+		"axios": "^1.4.0",
+		"clipboardy": "^3.0.0",
+		"dompurify": "^2.4.5",
+		"react-awesome-button": "^7.0.5",
+		"react-beautiful-dnd": "^13.1.1",
+		"react-collapsed": "^4.1.2",
+		"react-query": "^3.39.3",
+		"react-router": "^6.13.0",
+		"react-router-dom": "^6.13.0"
+	}
+}

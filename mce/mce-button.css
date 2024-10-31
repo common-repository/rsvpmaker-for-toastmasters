@@ -1,0 +1,8 @@
+i.mce-i-agenda_note:before {
+	font-family: "dashicons";
+	content: "\f473";
+}
+i.mce-i-toastmaster:before {
+	font-family: "dashicons";
+	content: "\f307";
+}

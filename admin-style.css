@@ -1,0 +1,47 @@
+.toastmasters-see-also {
+	width: 300px;
+	float: right;
+	padding: 15px;
+	background-color: #eee;
+	margin: 5px;
+}
+
+.member_dues_update p.submit {
+	width: 150px;
+	float: right;
+}
+
+.toastmasters ul, #toastmasters_admin_widget ul {
+   list-style-type: disc;
+   list-style-position: inside;
+}
+.toastmasters ol, #toastmasters_admin_widget ol {
+   list-style-type: decimal;
+   list-style-position: inside;
+}
+.toastmasters ul ul,.toastmasters  ol ul,#toastmasters_admin_widget ul ul,#toastmasters_admin_widget  ol ul  {
+   list-style-type: circle;
+   list-style-position: inside;
+   margin-left: 15px;
+}
+.toastmasters ol ol, .toastmasters ul ol,#toastmasters_admin_widget ol ol, #toastmasters_admin_widget ul ol {
+   list-style-type: lower-latin;
+   list-style-position: inside;
+   margin-left: 15px;
+}
+select.projectadd {
+width: 300px;
+}
+section#edit td {
+text-align: left;
+border: none;
+}
+
+.has-sub li {
+	display: none;
+	margin-left: 15px;
+}
+
+.dashdate {
+	padding-bottom: 5px;
+}

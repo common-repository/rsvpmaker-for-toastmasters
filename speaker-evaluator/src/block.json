@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "wp4toastmasters/speaker-evaluator",
+	"version": "0.1.0",
+	"title": "Speaker Evaluator",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Displays speaker/evaluator table",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+        "columns": {
+            "type": "string",
+            "default": 5
+        }
+    },
+	"textdomain": "speaker-evaluator",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}

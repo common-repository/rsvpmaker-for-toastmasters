@@ -1,0 +1,25 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+table.speaker-evaluator-table, .speaker-evaluator-table td, .speaker-evaluator-table th {
+	border: thin solid #999;
+	border-collapse: collapse;
+}
+.speakernumber {
+	width: 1em;
+	text-align: center;
+}
+.speaker-column, .evaluator-column, .path-column, .project-column, .title-column {
+	width: 150px;
+}
+.speaker-column-plus {
+	width: 350px;
+}
+table.speaker-evaluator-table td {
+	padding: 3px;
+	padding-left: 8px;
+}

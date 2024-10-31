@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wp4toastmasters/officers",
+	"version": "0.1.0",
+	"title": "Toastmasters Officers List",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Officers list for agenda layout.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "agenda-main",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}

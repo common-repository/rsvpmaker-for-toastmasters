@@ -1,0 +1,144 @@
+﻿body
+{
+	font-family: 'Segoe UI', sans-serif;
+	padding-left: 3px;
+}
+
+#voting {background-color: #fff;}
+#colorlabel {position: absolute; left: 300px; top: 300px; font-size: 80px;font-weight:bolder;}
+
+.label {
+  font-size: 100%;
+}
+
+body {
+	background-color: #000;
+}
+
+#instructions {
+	background-color: #fff;
+}
+
+#trafficlight
+{
+	height: 100%;
+	vertical-align: top;
+	line-height: 100px;
+	width: 100%;
+	margin-top: 10px;
+}
+
+#green-light, #yellow-light, #red-light
+{
+	font-size: 18px;
+	text-align: right;
+	height: 25px;
+	line-height: 20px;
+	width: 120px;
+	display: inline-block;
+}
+
+button.colorbuttons {
+display: block;
+width: 120px;
+text-align: center;
+margin-top: 2px;
+}
+
+select {
+	width: 120px;
+}
+
+#red-light, button#rednow
+{
+	background-color:#FF4040;
+	color:white;
+}
+
+#yellow-light, button#yellownow
+{
+	background-color:#FCDC3B;
+}
+
+#green-light, button#greennow
+{
+	background-color:#A7DA7E;
+}
+
+.greenyellowred, .timefield {
+	width: 120px;
+}
+
+#dropdowntime, #speakername {
+	width: 120px;
+}
+
+#correction {
+	width: 90px;
+}
+
+#buttons {
+	display: none;
+}
+
+#credit {
+	background-color: #fff;
+	font-size: .8em;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	text-align: right;
+	height: 1.5em;
+	overflow: hidden;
+}
+
+#colorlabel {
+	width: 200px;
+	float: right;
+}
+.float-left {
+	float: left;
+}
+
+#jitsi {
+	position: absolute;
+	top: 30px;
+	left: 150px;
+	width: 80%;
+	height: 100%;
+	background-repeat:no-repeat;
+	background-size: 100% auto;
+}
+
+#timelog {
+	width: 120px;
+	font-size: 10px;
+	background-color: #fff;
+}
+.speech-type {
+	margin-bottom: 1px;
+	margin-left: 10px;
+	display: block;
+	width: 60px;
+}
+
+#viewcontrol {
+	text-align: center;
+}
+
+#background-image-control {
+	margin-top: 25px;
+}
+
+#timer2021 {
+	width: 300px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 5px;
+	background-color: rgba(255,255, 255, 0.8);
+	font-weight: bold;
+	border-radius: 25px;
+	text-align: center;
+	font-size: 60px;
+	display: none;
+}
